@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🖐️ Rockit Vision – AI Hand Gesture Recognition
 
 ![Rockit Vision Preview](./computer_vision_app/assets/images/preview.png) *(Substitua por um screenshot do seu app rodando!)*
