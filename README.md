@@ -42,13 +42,13 @@ O projeto está organizado de forma modular seguindo as melhores práticas:
    
 2. **Instale as dependências**
    ```bash
- pip install python-fasthtml mediapipe opencv-python scikit-learn joblib uvicorn
+  pip install python-fasthtml mediapipe opencv-python scikit-learn joblib uvicorn
    
-  3. **Inicie o servidor**
+3. **Inicie o servidor**
    ```bash
  python app.py
 
-3. **Acesse no seu navegador**
+4. **Acesse no seu navegador**
    ```bash
  http://localhost:5001
 
