@@ -1,7 +1,5 @@
 # 🖐️ Rockit Vision – AI Hand Gesture Recognition
 
-![Rockit Vision Preview](./computer_vision_app/assets/images/preview.png) *(Substitua por um screenshot do seu app rodando!)*
-
 **Rockit Vision** é uma aplicação web de inteligência artificial construída com **FastHTML** e **Python**. O projeto tem o objetivo de realizar o reconhecimento e a classificação de gestos feitos com as mãos em tempo real usando a webcam do usuário.
 
 Desenvolvido durante a Trilha Python da **Next Level Week (NLW) 2026** por [Vitória Miranda](https://github.com/vitoriasmiranda).
