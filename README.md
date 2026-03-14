@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🖐️ Rockit Vision – AI Hand Gesture Recognition
 
 ![Rockit Vision Preview](./computer_vision_app/assets/images/preview.png) *(Substitua por um screenshot do seu app rodando!)*
@@ -85,3 +86,6 @@ O front-end utiliza uma forte inspiração em Glassmorphism, mantendo esquemas d
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE) para mais detalhes. Feito com 💜 para estudos.
+=======
+
+>>>>>>> 82c14ae2b26591163c6983ebfd4f6b7de608c287
