@@ -14,7 +14,7 @@ O aplicativo combina três frentes de tecnologia para levar Inteligência Artifi
 
 1. **Captura em Tempo Real (FastHTML + WebSockets):** A interface web solicita acesso à sua webcam. Os frames de vídeo capturados são enviados de forma contínua (via WebSockets) para o servidor Python, sem a necessidade de recarregar a página.
 2. **Mapeamento Articular (MediaPipe):** No backend, a biblioteca do Google **MediaPipe** recebe esses frames e identifica os pontos-chave (landmarks) das suas mãos, desenhando as articulações em tempo real.
-3. **Predição Inteligente (Scikit-Learn):** A partir das coordenadas geradas, um modelo de *Machine Learning* customizado (treinado com scikit-learn) calcula as distâncias entre esses pontos e "adivinha" qual gesto (Pedra, Papel, Tesoura, Paz, etc.) você está fazendo. Os labels e porcentagens de probabilidade voltam pela conexão WebSocket para a sua tela.
+3. **Predição Inteligente (Scikit-Learn):** A partir das coordenadas geradas, um modelo de *Machine Learning* customizado (treinado com scikit-learn) calcula as distâncias entre esses pontos e "adivinha" qual gesto você está fazendo. Os labels e porcentagens de probabilidade voltam pela conexão WebSocket para a sua tela.
 
 ---
 
