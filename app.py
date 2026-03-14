@@ -48,25 +48,31 @@ def get():
             ),
             Div(
                 Div(
-                    H3("Image Quality Control"),
+                    H3("📸 Image Quality Control"),
                     Div(
                         Input(type="range", id="quality-slider", min="0.1", max="1.0", step="0.05", value="0.6"),
                         Span("60%", id="quality-value"),
                         cls="quality-control"
                     ),
-                    H3("Settings"),
+                    cls="setting-section"
+                ),
+                Div(
+                    H3("⚙️ Settings"),
                     Div(
                         Label(Input(type="checkbox", id="draw-landmarks-cb", checked=True), " Draw Hand Landmarks"),
                         cls="settings-control"
                     ),
-                    H3("Live Feed Data"),
-                    Div(id="gesture-container"),
-                    cls="info-card"
+                    cls="setting-section"
                 ),
                 Div(
-                    H3("Detected Gesture"),
+                    H3("📊 Live Feed Data"),
+                    Div(id="gesture-container"),
+                    cls="setting-section"
+                ),
+                Div(
+                    H3("🖐️ Detected Gesture"),
                     Div(Img(id="gesture-image"), cls="gesture-preview-box"),
-                    cls="info-card"
+                    cls="setting-section gesture-section"
                 ),
                 cls="sidebar-info"
             ),
